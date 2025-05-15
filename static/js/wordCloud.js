@@ -2,12 +2,23 @@ import { fetchData } from './fetchData.js'
 
 function paintByValue(data) {
         const value = data.value;
-        if (value > 40) return '#002244';
-        else if (value > 30) return '#003366';
-        else if (value > 20) return '#00509e';
-        else if (value > 10) return '#007acc';
-        else if (value > 5)  return '#3399ff'
-        return '#66b2ff'
+        const isDark = document.body.classList.contains('dark-mode');
+
+        if (isDark) {
+            if (value > 40) return '#0A2342';
+            else if (value > 30) return '#0F3B6C';
+            else if (value > 20) return '#12568A';
+            else if (value > 10) return '#1570A3';
+            else if (value > 5)  return '#1684B5';
+            return '#1890FF';
+        } else {
+            if (value > 40) return '#002244';
+            else if (value > 30) return '#003366';
+            else if (value > 20) return '#00509e';
+            else if (value > 10) return '#007acc';
+            else if (value > 5) return '#3399ff'
+            return '#66b2ff'
+        }
     }
 
 document.addEventListener('DOMContentLoaded', async function() {
