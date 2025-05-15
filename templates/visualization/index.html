@@ -2,21 +2,29 @@
 
 {% load static %}
 
-{% block extra_css %}
-    <link rel="stylesheet" href="{% static 'css/index.css' %}">
-{% endblock %}
-
 {% block content %}
   <!-- Entry Main Section -->
-  <section class="hero">
-    <div class="content">
-      <h1>Discover</h1>
-      <h1>The</h1>
-      <h1>NeoKG</h1>
-      <p>A Neo4j-based Knowledge Graph visualization demonstration for boosting tech innovation.</p>
-      <a href="{% url 'graph' %}" class="btn-hero">Explore Now</a>
+<div class="section">
+  <h2 style="color:#007ACC;">Welcome 2 NeoKG</h2>
+  <p>NeoKG, an exhibition of Tech Service outlook KG & Keyword Cloud.</p>
+  <div class="featured">
+    <div class="card">
+      <h3>Knowledge Graph</h3>
+      <p>Straight out to all technology service network within companies.</p>
+      <a class="btn" href="{% url 'graph' %}">Explore the Knowledge Graph</a>
     </div>
-  </section>
+    <div class="card">
+      <h3>Keyword Cloud</h3>
+      <p>Spot contemporary popular technology keywords.</p>
+      <a class="btn" href="{% url 'wordcloud' %}">Check out Keyword Cloud</a>
+    </div>
+    <div class="card">
+      <h3>About</h3>
+      <p>Learn about NeoKG project, about me ...also about my works.</p>
+      <a class="btn" href="{% url 'about' %}">Learn more</a>
+    </div>
+  </div>
+</div>
 {% endblock %}
 
 {% block extra_js %}

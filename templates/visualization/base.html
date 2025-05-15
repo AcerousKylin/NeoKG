@@ -8,7 +8,7 @@
     <meta name="author" content="AcerousKylin">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>{% block title %}NeoKG{% endblock %}</title>
+    <title>{% block title %}NeoKG - Technology Service Knowledge Graph{% endblock %}</title>
 
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
@@ -16,7 +16,8 @@
     {% block extra_css %}{% endblock %}
 </head>
 <body>
-    <div class="full-bg"></div>
+    <!-- Background Components -->
+    <div class="decorative-bg"></div>
     <div class="digital-bg"></div>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -44,9 +45,16 @@
       </div>
     </nav>
 
-    <div class="container mt-4">
+    <main class="container main-content">
       {% block content %}{% endblock %}
-    </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 NeoKG - Technology Service Knowledge Graph. All right reserved.</p>
+        </div>
+    </footer>
+
     <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
     {% block extra_js %}{% endblock %}
 </body>
