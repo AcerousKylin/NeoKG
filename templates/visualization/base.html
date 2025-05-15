@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="知识图谱可视化系统，支持搜索和交互">
+    <meta name="keywords" content="知识图谱, 可视化, Neo4j">
+    <meta name="author" content="AcerousKylin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% block title %}NeoKG{% endblock %}</title>
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+    <div class="full-bg"></div>
+    <div class="digital-bg"></div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="{% url 'index' %}">NeoKG</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="{% url 'index' %}">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="{% url 'graph' %}">Graph</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="{% url 'wordcloud' %}">Word Cloud</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="{% url 'about' %}">About</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-4">
+      {% block content %}{% endblock %}
+    </div>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

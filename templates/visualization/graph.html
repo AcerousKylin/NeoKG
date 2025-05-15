@@ -1,0 +1,43 @@
+{% extends 'visualization/base.html' %}
+
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'css/graph.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="graph-wrapper">
+    <!-- Title Container -->
+    <h1 class="mb-4">Knowledge Graph Force-Directed Layout</h1>
+
+    <!-- Search Container -->
+    <div class="search">
+        <select id="level-select">
+            <option value="1">一级</option>
+            <option value="2">二级</option>
+            <option value="3">三级</option>
+        </select>
+        <select id="direction-select">
+            <option value="out">出向</option>
+            <option value="in">入向</option>
+            <option value="both">双向</option>
+        </select>
+        <input type="text" id="search-input" placeholder="输入搜索关键词">
+        <!-- Bootstrap Style Class Buttons -->
+        <button id="search-button", class="btn btn-primary">搜索</button>
+        <button id="toggle-label" class="btn btn-secondary">显示节点名</button>
+    </div>
+
+    <!-- Graph Container -->
+    <div id="graph-container"></div>
+
+</div>
+{% endblock %}
+
+{% block extra_js %}
+    <!-- ES6 modulize to import other sub module -->
+    <script type="module" src="{% static 'js/graph.js' %}"></script>
+    <!-- ECharts Module -->
+    <script src="{% static 'js/echarts.min.js' %}"></script>
+{% endblock %}

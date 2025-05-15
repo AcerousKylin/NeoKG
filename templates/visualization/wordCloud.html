@@ -1,0 +1,20 @@
+{% extends 'visualization/base.html' %}
+
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'css/wordCloud.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="wordcloud-wrapper">
+    <h1 class="mb-4">Technology Service Keyword Cloud</h1>
+    <div id="wordcloud-container"></div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+    <script src="{% static 'js/echarts.min.js' %}"></script>
+    <script src="{% static 'js/echarts-wordcloud.min.js' %}"></script>
+    <script type="module" src="{% static 'js/wordCloud.js' %}"></script>
+{% endblock %}

@@ -1,0 +1,2562 @@
+[
+    {
+        "name": "计算机软件",
+        "value": 4
+    },
+    {
+        "name": "技术开发",
+        "value": 30
+    },
+    {
+        "name": "技术咨询",
+        "value": 29
+    },
+    {
+        "name": "交流",
+        "value": 15
+    },
+    {
+        "name": "技术转让",
+        "value": 22
+    },
+    {
+        "name": "技术推广",
+        "value": 16
+    },
+    {
+        "name": "软件开发",
+        "value": 11
+    },
+    {
+        "name": "专业",
+        "value": 8
+    },
+    {
+        "name": "翻译",
+        "value": 4
+    },
+    {
+        "name": "货物",
+        "value": 16
+    },
+    {
+        "name": "进出口",
+        "value": 42
+    },
+    {
+        "name": "基础",
+        "value": 9
+    },
+    {
+        "name": "电信业务",
+        "value": 20
+    },
+    {
+        "name": "增值",
+        "value": 15
+    },
+    {
+        "name": "互联网",
+        "value": 17
+    },
+    {
+        "name": "域名",
+        "value": 2
+    },
+    {
+        "name": "注册",
+        "value": 2
+    },
+    {
+        "name": "测绘",
+        "value": 2
+    },
+    {
+        "name": "服务器",
+        "value": 1
+    },
+    {
+        "name": "运行",
+        "value": 4
+    },
+    {
+        "name": "网络",
+        "value": 7
+    },
+    {
+        "name": "文化",
+        "value": 5
+    },
+    {
+        "name": "出版物",
+        "value": 5
+    },
+    {
+        "name": "零售",
+        "value": 28
+    },
+    {
+        "name": "批发",
+        "value": 20
+    },
+    {
+        "name": "演出",
+        "value": 1
+    },
+    {
+        "name": "经纪",
+        "value": 3
+    },
+    {
+        "name": "职业",
+        "value": 1
+    },
+    {
+        "name": "中介",
+        "value": 2
+    },
+    {
+        "name": "活动",
+        "value": 7
+    },
+    {
+        "name": "广播",
+        "value": 1
+    },
+    {
+        "name": "电视节目",
+        "value": 1
+    },
+    {
+        "name": "制作",
+        "value": 10
+    },
+    {
+        "name": "信息网络",
+        "value": 2
+    },
+    {
+        "name": "传播",
+        "value": 2
+    },
+    {
+        "name": "视听",
+        "value": 3
+    },
+    {
+        "name": "节目",
+        "value": 2
+    },
+    {
+        "name": "新闻",
+        "value": 1
+    },
+    {
+        "name": "拍卖",
+        "value": 1
+    },
+    {
+        "name": "食盐",
+        "value": 1
+    },
+    {
+        "name": "农药",
+        "value": 1
+    },
+    {
+        "name": "兽药",
+        "value": 1
+    },
+    {
+        "name": "道路",
+        "value": 2
+    },
+    {
+        "name": "货物运输",
+        "value": 5
+    },
+    {
+        "name": "广告",
+        "value": 9
+    },
+    {
+        "name": "发布",
+        "value": 4
+    },
+    {
+        "name": "广告设计",
+        "value": 5
+    },
+    {
+        "name": "代理",
+        "value": 65
+    },
+    {
+        "name": "电子产品",
+        "value": 12
+    },
+    {
+        "name": "计算机系统",
+        "value": 9
+    },
+    {
+        "name": "建筑",
+        "value": 8
+    },
+    {
+        "name": "劳务",
+        "value": 3
+    },
+    {
+        "name": "分包",
+        "value": 3
+    },
+    {
+        "name": "建设工程",
+        "value": 6
+    },
+    {
+        "name": "勘察",
+        "value": 1
+    },
+    {
+        "name": "工程施工",
+        "value": 10
+    },
+    {
+        "name": "计算机",
+        "value": 28
+    },
+    {
+        "name": "软硬件",
+        "value": 19
+    },
+    {
+        "name": "辅助",
+        "value": 14
+    },
+    {
+        "name": "软件",
+        "value": 13
+    },
+    {
+        "name": "人工智能",
+        "value": 11
+    },
+    {
+        "name": "应用软件",
+        "value": 4
+    },
+    {
+        "name": "数据处理",
+        "value": 7
+    },
+    {
+        "name": "市场",
+        "value": 3
+    },
+    {
+        "name": "调查",
+        "value": 4
+    },
+    {
+        "name": "社会",
+        "value": 3
+    },
+    {
+        "name": "经济",
+        "value": 6
+    },
+    {
+        "name": "咨询服务",
+        "value": 26
+    },
+    {
+        "name": "会议",
+        "value": 6
+    },
+    {
+        "name": "展览",
+        "value": 5
+    },
+    {
+        "name": "摄影",
+        "value": 2
+    },
+    {
+        "name": "扩印",
+        "value": 2
+    },
+    {
+        "name": "打字",
+        "value": 1
+    },
+    {
+        "name": "复印",
+        "value": 1
+    },
+    {
+        "name": "图文",
+        "value": 2
+    },
+    {
+        "name": "机械设备",
+        "value": 15
+    },
+    {
+        "name": "租赁",
+        "value": 20
+    },
+    {
+        "name": "食品",
+        "value": 1
+    },
+    {
+        "name": "量子",
+        "value": 1
+    },
+    {
+        "name": "计算技术",
+        "value": 1
+    },
+    {
+        "name": "集成电路",
+        "value": 11
+    },
+    {
+        "name": "芯片",
+        "value": 2
+    },
+    {
+        "name": "产品销售",
+        "value": 6
+    },
+    {
+        "name": "信息技术",
+        "value": 8
+    },
+    {
+        "name": "数据服务",
+        "value": 7
+    },
+    {
+        "name": "计算",
+        "value": 5
+    },
+    {
+        "name": "装备",
+        "value": 2
+    },
+    {
+        "name": "仪器仪表",
+        "value": 8
+    },
+    {
+        "name": "电子",
+        "value": 12
+    },
+    {
+        "name": "元器件",
+        "value": 6
+    },
+    {
+        "name": "机电",
+        "value": 2
+    },
+    {
+        "name": "组件",
+        "value": 2
+    },
+    {
+        "name": "测量",
+        "value": 3
+    },
+    {
+        "name": "仪器",
+        "value": 4
+    },
+    {
+        "name": "信息系统",
+        "value": 12
+    },
+    {
+        "name": "集成",
+        "value": 12
+    },
+    {
+        "name": "维护",
+        "value": 7
+    },
+    {
+        "name": "外围设备",
+        "value": 4
+    },
+    {
+        "name": "硬件",
+        "value": 2
+    },
+    {
+        "name": "双创",
+        "value": 1
+    },
+    {
+        "name": "服务平台",
+        "value": 1
+    },
+    {
+        "name": "公共服务",
+        "value": 1
+    },
+    {
+        "name": "平台",
+        "value": 5
+    },
+    {
+        "name": "公共数据",
+        "value": 1
+    },
+    {
+        "name": "资源",
+        "value": 2
+    },
+    {
+        "name": "业务培训",
+        "value": 5
+    },
+    {
+        "name": "教育",
+        "value": 6
+    },
+    {
+        "name": "数字",
+        "value": 5
+    },
+    {
+        "name": "内容",
+        "value": 4
+    },
+    {
+        "name": "组织",
+        "value": 3
+    },
+    {
+        "name": "艺术交流",
+        "value": 1
+    },
+    {
+        "name": "企业形象",
+        "value": 3
+    },
+    {
+        "name": "策划",
+        "value": 6
+    },
+    {
+        "name": "汽车",
+        "value": 33
+    },
+    {
+        "name": "工业",
+        "value": 9
+    },
+    {
+        "name": "投资",
+        "value": 16
+    },
+    {
+        "name": "零部件",
+        "value": 16
+    },
+    {
+        "name": "金属",
+        "value": 7
+    },
+    {
+        "name": "机械",
+        "value": 6
+    },
+    {
+        "name": "铸锻件",
+        "value": 1
+    },
+    {
+        "name": "起动",
+        "value": 1
+    },
+    {
+        "name": "电机",
+        "value": 1
+    },
+    {
+        "name": "粉末冶金",
+        "value": 3
+    },
+    {
+        "name": "工具",
+        "value": 3
+    },
+    {
+        "name": "模具",
+        "value": 5
+    },
+    {
+        "name": "公司",
+        "value": 1
+    },
+    {
+        "name": "经营项目",
+        "value": 2
+    },
+    {
+        "name": "售后服务",
+        "value": 4
+    },
+    {
+        "name": "新能源",
+        "value": 3
+    },
+    {
+        "name": "整车",
+        "value": 1
+    },
+    {
+        "name": "电池",
+        "value": 3
+    },
+    {
+        "name": "工程",
+        "value": 15
+    },
+    {
+        "name": "研究",
+        "value": 6
+    },
+    {
+        "name": "试验",
+        "value": 7
+    },
+    {
+        "name": "发展",
+        "value": 4
+    },
+    {
+        "name": "新兴",
+        "value": 1
+    },
+    {
+        "name": "能源技术",
+        "value": 1
+    },
+    {
+        "name": "材料",
+        "value": 8
+    },
+    {
+        "name": "配件",
+        "value": 8
+    },
+    {
+        "name": "零配件",
+        "value": 13
+    },
+    {
+        "name": "黑色金属",
+        "value": 1
+    },
+    {
+        "name": "铸造",
+        "value": 1
+    },
+    {
+        "name": "润滑油",
+        "value": 3
+    },
+    {
+        "name": "加工",
+        "value": 3
+    },
+    {
+        "name": "化工产品",
+        "value": 4
+    },
+    {
+        "name": "生产",
+        "value": 19
+    },
+    {
+        "name": "化工",
+        "value": 2
+    },
+    {
+        "name": "二手车",
+        "value": 4
+    },
+    {
+        "name": "交易市场",
+        "value": 1
+    },
+    {
+        "name": "机动车",
+        "value": 3
+    },
+    {
+        "name": "鉴定",
+        "value": 1
+    },
+    {
+        "name": "居住",
+        "value": 3
+    },
+    {
+        "name": "房地产",
+        "value": 4
+    },
+    {
+        "name": "通讯",
+        "value": 1
+    },
+    {
+        "name": "提供",
+        "value": 12
+    },
+    {
+        "name": "上述",
+        "value": 1
+    },
+    {
+        "name": "技术培训",
+        "value": 2
+    },
+    {
+        "name": "自行",
+        "value": 1
+    },
+    {
+        "name": "五金交电",
+        "value": 1
+    },
+    {
+        "name": "通讯设备",
+        "value": 4
+    },
+    {
+        "name": "家用电器",
+        "value": 8
+    },
+    {
+        "name": "委托",
+        "value": 2
+    },
+    {
+        "name": "管理",
+        "value": 27
+    },
+    {
+        "name": "广东",
+        "value": 1
+    },
+    {
+        "name": "电网",
+        "value": 2
+    },
+    {
+        "name": "相关",
+        "value": 11
+    },
+    {
+        "name": "输配电",
+        "value": 1
+    },
+    {
+        "name": "参与",
+        "value": 1
+    },
+    {
+        "name": "区域",
+        "value": 1
+    },
+    {
+        "name": "输变电",
+        "value": 2
+    },
+    {
+        "name": "联网",
+        "value": 17
+    },
+    {
+        "name": "电力",
+        "value": 14
+    },
+    {
+        "name": "购销",
+        "value": 1
+    },
+    {
+        "name": "负责",
+        "value": 1
+    },
+    {
+        "name": "交易",
+        "value": 3
+    },
+    {
+        "name": "调度",
+        "value": 2
+    },
+    {
+        "name": "电力设备",
+        "value": 2
+    },
+    {
+        "name": "器材",
+        "value": 6
+    },
+    {
+        "name": "调试",
+        "value": 2
+    },
+    {
+        "name": "检测",
+        "value": 5
+    },
+    {
+        "name": "电力供应",
+        "value": 2
+    },
+    {
+        "name": "科学研究",
+        "value": 1
+    },
+    {
+        "name": "监督",
+        "value": 2
+    },
+    {
+        "name": "通信",
+        "value": 11
+    },
+    {
+        "name": "变电",
+        "value": 1
+    },
+    {
+        "name": "承包",
+        "value": 3
+    },
+    {
+        "name": "电气设备",
+        "value": 3
+    },
+    {
+        "name": "输送",
+        "value": 1
+    },
+    {
+        "name": "设施",
+        "value": 2
+    },
+    {
+        "name": "安装",
+        "value": 12
+    },
+    {
+        "name": "建筑物",
+        "value": 1
+    },
+    {
+        "name": "电力系统",
+        "value": 1
+    },
+    {
+        "name": "电工器材",
+        "value": 1
+    },
+    {
+        "name": "企业",
+        "value": 20
+    },
+    {
+        "name": "自有",
+        "value": 6
+    },
+    {
+        "name": "资金",
+        "value": 7
+    },
+    {
+        "name": "承装",
+        "value": 1
+    },
+    {
+        "name": "电力设施",
+        "value": 3
+    },
+    {
+        "name": "家具",
+        "value": 1
+    },
+    {
+        "name": "特种设备",
+        "value": 5
+    },
+    {
+        "name": "检验",
+        "value": 1
+    },
+    {
+        "name": "配电",
+        "value": 1
+    },
+    {
+        "name": "能源开发",
+        "value": 1
+    },
+    {
+        "name": "利用",
+        "value": 1
+    },
+    {
+        "name": "科技咨询",
+        "value": 1
+    },
+    {
+        "name": "建筑材料",
+        "value": 4
+    },
+    {
+        "name": "电子设备",
+        "value": 5
+    },
+    {
+        "name": "房屋",
+        "value": 4
+    },
+    {
+        "name": "供电",
+        "value": 1
+    },
+    {
+        "name": "供热",
+        "value": 1
+    },
+    {
+        "name": "燃气",
+        "value": 1
+    },
+    {
+        "name": "监理",
+        "value": 1
+    },
+    {
+        "name": "项目",
+        "value": 5
+    },
+    {
+        "name": "保养",
+        "value": 1
+    },
+    {
+        "name": "维修",
+        "value": 2
+    },
+    {
+        "name": "改造",
+        "value": 1
+    },
+    {
+        "name": "招标",
+        "value": 1
+    },
+    {
+        "name": "科技",
+        "value": 8
+    },
+    {
+        "name": "环保",
+        "value": 3
+    },
+    {
+        "name": "节能",
+        "value": 1
+    },
+    {
+        "name": "能源",
+        "value": 1
+    },
+    {
+        "name": "科技领域",
+        "value": 2
+    },
+    {
+        "name": "数字视频",
+        "value": 2
+    },
+    {
+        "name": "监控",
+        "value": 2
+    },
+    {
+        "name": "系统",
+        "value": 11
+    },
+    {
+        "name": "安防",
+        "value": 4
+    },
+    {
+        "name": "智能",
+        "value": 12
+    },
+    {
+        "name": "无人",
+        "value": 2
+    },
+    {
+        "name": "飞行器",
+        "value": 2
+    },
+    {
+        "name": "网络设备",
+        "value": 4
+    },
+    {
+        "name": "显示器",
+        "value": 2
+    },
+    {
+        "name": "车载",
+        "value": 4
+    },
+    {
+        "name": "电气",
+        "value": 3
+    },
+    {
+        "name": "信号",
+        "value": 2
+    },
+    {
+        "name": "装置",
+        "value": 3
+    },
+    {
+        "name": "特种",
+        "value": 2
+    },
+    {
+        "name": "劳动",
+        "value": 2
+    },
+    {
+        "name": "防护用品",
+        "value": 2
+    },
+    {
+        "name": "创意",
+        "value": 2
+    },
+    {
+        "name": "技术装备",
+        "value": 1
+    },
+    {
+        "name": "医疗器械",
+        "value": 11
+    },
+    {
+        "name": "充电",
+        "value": 4
+    },
+    {
+        "name": "信息安全",
+        "value": 2
+    },
+    {
+        "name": "应用服务",
+        "value": 3
+    },
+    {
+        "name": "存储",
+        "value": 3
+    },
+    {
+        "name": "支持",
+        "value": 3
+    },
+    {
+        "name": "安全",
+        "value": 3
+    },
+    {
+        "name": "系统监控",
+        "value": 1
+    },
+    {
+        "name": "防范",
+        "value": 1
+    },
+    {
+        "name": "施工",
+        "value": 4
+    },
+    {
+        "name": "通用设备",
+        "value": 2
+    },
+    {
+        "name": "修理",
+        "value": 4
+    },
+    {
+        "name": "集中式",
+        "value": 1
+    },
+    {
+        "name": "快速",
+        "value": 1
+    },
+    {
+        "name": "充电站",
+        "value": 1
+    },
+    {
+        "name": "停车场",
+        "value": 1
+    },
+    {
+        "name": "健康",
+        "value": 2
+    },
+    {
+        "name": "环境保护",
+        "value": 1
+    },
+    {
+        "name": "监测",
+        "value": 3
+    },
+    {
+        "name": "营销策划",
+        "value": 1
+    },
+    {
+        "name": "半导体",
+        "value": 5
+    },
+    {
+        "name": "光机电",
+        "value": 1
+    },
+    {
+        "name": "一体化",
+        "value": 1
+    },
+    {
+        "name": "专用",
+        "value": 5
+    },
+    {
+        "name": "采购",
+        "value": 3
+    },
+    {
+        "name": "电子器件",
+        "value": 3
+    },
+    {
+        "name": "新型",
+        "value": 3
+    },
+    {
+        "name": "电器",
+        "value": 1
+    },
+    {
+        "name": "封装",
+        "value": 1
+    },
+    {
+        "name": "测试",
+        "value": 3
+    },
+    {
+        "name": "领域",
+        "value": 2
+    },
+    {
+        "name": "自营",
+        "value": 7
+    },
+    {
+        "name": "各类",
+        "value": 8
+    },
+    {
+        "name": "商品",
+        "value": 2
+    },
+    {
+        "name": "控制",
+        "value": 1
+    },
+    {
+        "name": "家庭",
+        "value": 1
+    },
+    {
+        "name": "消费",
+        "value": 1
+    },
+    {
+        "name": "雷达",
+        "value": 1
+    },
+    {
+        "name": "配套",
+        "value": 4
+    },
+    {
+        "name": "运输设备",
+        "value": 2
+    },
+    {
+        "name": "计数",
+        "value": 1
+    },
+    {
+        "name": "仪表",
+        "value": 1
+    },
+    {
+        "name": "钟表",
+        "value": 1
+    },
+    {
+        "name": "计时",
+        "value": 1
+    },
+    {
+        "name": "音响设备",
+        "value": 1
+    },
+    {
+        "name": "5G",
+        "value": 2
+    },
+    {
+        "name": "行业",
+        "value": 1
+    },
+    {
+        "name": "应用",
+        "value": 3
+    },
+    {
+        "name": "系统集成",
+        "value": 2
+    },
+    {
+        "name": "控制系统",
+        "value": 1
+    },
+    {
+        "name": "知识产权",
+        "value": 3
+    },
+    {
+        "name": "成果",
+        "value": 1
+    },
+    {
+        "name": "转让",
+        "value": 3
+    },
+    {
+        "name": "自动化",
+        "value": 2
+    },
+    {
+        "name": "控制工程",
+        "value": 1
+    },
+    {
+        "name": "计算机硬件",
+        "value": 1
+    },
+    {
+        "name": "外部设备",
+        "value": 1
+    },
+    {
+        "name": "塑料制品",
+        "value": 2
+    },
+    {
+        "name": "复合材料",
+        "value": 1
+    },
+    {
+        "name": "机械加工",
+        "value": 1
+    },
+    {
+        "name": "管材",
+        "value": 2
+    },
+    {
+        "name": "管件",
+        "value": 2
+    },
+    {
+        "name": "复合",
+        "value": 1
+    },
+    {
+        "name": "数据",
+        "value": 1
+    },
+    {
+        "name": "计算机网络",
+        "value": 3
+    },
+    {
+        "name": "系统工程",
+        "value": 1
+    },
+    {
+        "name": "专用车",
+        "value": 1
+    },
+    {
+        "name": "发动机",
+        "value": 2
+    },
+    {
+        "name": "底盘",
+        "value": 1
+    },
+    {
+        "name": "总成",
+        "value": 1
+    },
+    {
+        "name": "福特",
+        "value": 1
+    },
+    {
+        "name": "有限公司",
+        "value": 2
+    },
+    {
+        "name": "品牌",
+        "value": 3
+    },
+    {
+        "name": "经销商",
+        "value": 1
+    },
+    {
+        "name": "系列",
+        "value": 1
+    },
+    {
+        "name": "进口",
+        "value": 2
+    },
+    {
+        "name": "经销",
+        "value": 1
+    },
+    {
+        "name": "电脑",
+        "value": 1
+    },
+    {
+        "name": "方面",
+        "value": 1
+    },
+    {
+        "name": "消防器材",
+        "value": 1
+    },
+    {
+        "name": "消防",
+        "value": 2
+    },
+    {
+        "name": "金属制品",
+        "value": 5
+    },
+    {
+        "name": "真空设备",
+        "value": 1
+    },
+    {
+        "name": "版权",
+        "value": 9
+    },
+    {
+        "name": "水资源",
+        "value": 1
+    },
+    {
+        "name": "环境",
+        "value": 2
+    },
+    {
+        "name": "应急",
+        "value": 1
+    },
+    {
+        "name": "水质",
+        "value": 1
+    },
+    {
+        "name": "污染物",
+        "value": 1
+    },
+    {
+        "name": "水务",
+        "value": 1
+    },
+    {
+        "name": "市政",
+        "value": 2
+    },
+    {
+        "name": "工程建设",
+        "value": 2
+    },
+    {
+        "name": "智能化",
+        "value": 6
+    },
+    {
+        "name": "作业",
+        "value": 1
+    },
+    {
+        "name": "房屋建筑",
+        "value": 1
+    },
+    {
+        "name": "基础设施",
+        "value": 2
+    },
+    {
+        "name": "网络科技",
+        "value": 1
+    },
+    {
+        "name": "网络工程",
+        "value": 2
+    },
+    {
+        "name": "耗材",
+        "value": 1
+    },
+    {
+        "name": "股权",
+        "value": 1
+    },
+    {
+        "name": "未上市",
+        "value": 1
+    },
+    {
+        "name": "上市公司",
+        "value": 1
+    },
+    {
+        "name": "公开",
+        "value": 1
+    },
+    {
+        "name": "发行股票",
+        "value": 1
+    },
+    {
+        "name": "商业",
+        "value": 1
+    },
+    {
+        "name": "运营",
+        "value": 3
+    },
+    {
+        "name": "供应链",
+        "value": 3
+    },
+    {
+        "name": "无需",
+        "value": 2
+    },
+    {
+        "name": "行政",
+        "value": 1
+    },
+    {
+        "name": "审批",
+        "value": 2
+    },
+    {
+        "name": "即可",
+        "value": 1
+    },
+    {
+        "name": "智慧",
+        "value": 2
+    },
+    {
+        "name": "城市",
+        "value": 2
+    },
+    {
+        "name": "模式",
+        "value": 1
+    },
+    {
+        "name": "体系",
+        "value": 1
+    },
+    {
+        "name": "标准",
+        "value": 1
+    },
+    {
+        "name": "城市规划",
+        "value": 1
+    },
+    {
+        "name": "和物",
+        "value": 1
+    },
+    {
+        "name": "信息处理",
+        "value": 1
+    },
+    {
+        "name": "模型",
+        "value": 1
+    },
+    {
+        "name": "产品设计",
+        "value": 1
+    },
+    {
+        "name": "食品药品",
+        "value": 1
+    },
+    {
+        "name": "质检",
+        "value": 1
+    },
+    {
+        "name": "农业",
+        "value": 1
+    },
+    {
+        "name": "科学技术",
+        "value": 1
+    },
+    {
+        "name": "医学",
+        "value": 1
+    },
+    {
+        "name": "科研",
+        "value": 1
+    },
+    {
+        "name": "教学科研",
+        "value": 1
+    },
+    {
+        "name": "公共设施",
+        "value": 1
+    },
+    {
+        "name": "规划",
+        "value": 1
+    },
+    {
+        "name": "生态",
+        "value": 2
+    },
+    {
+        "name": "保护",
+        "value": 1
+    },
+    {
+        "name": "环境治理",
+        "value": 1
+    },
+    {
+        "name": "健身运动",
+        "value": 1
+    },
+    {
+        "name": "医疗",
+        "value": 1
+    },
+    {
+        "name": "养老",
+        "value": 3
+    },
+    {
+        "name": "产业",
+        "value": 2
+    },
+    {
+        "name": "国内贸易",
+        "value": 3
+    },
+    {
+        "name": "广告业务",
+        "value": 1
+    },
+    {
+        "name": "会展",
+        "value": 1
+    },
+    {
+        "name": "物业",
+        "value": 1
+    },
+    {
+        "name": "兴办",
+        "value": 1
+    },
+    {
+        "name": "实业",
+        "value": 1
+    },
+    {
+        "name": "商务信息",
+        "value": 1
+    },
+    {
+        "name": "法律咨询",
+        "value": 2
+    },
+    {
+        "name": "不得",
+        "value": 2
+    },
+    {
+        "name": "律师",
+        "value": 1
+    },
+    {
+        "name": "名义",
+        "value": 1
+    },
+    {
+        "name": "法律",
+        "value": 1
+    },
+    {
+        "name": "牟取",
+        "value": 1
+    },
+    {
+        "name": "利益",
+        "value": 1
+    },
+    {
+        "name": "诉讼",
+        "value": 1
+    },
+    {
+        "name": "辩护",
+        "value": 1
+    },
+    {
+        "name": "工程设计",
+        "value": 5
+    },
+    {
+        "name": "综合",
+        "value": 1
+    },
+    {
+        "name": "布线",
+        "value": 1
+    },
+    {
+        "name": "网上",
+        "value": 1
+    },
+    {
+        "name": "商贸",
+        "value": 1
+    },
+    {
+        "name": "培训",
+        "value": 3
+    },
+    {
+        "name": "卫星",
+        "value": 1
+    },
+    {
+        "name": "电视接收",
+        "value": 1
+    },
+    {
+        "name": "天线",
+        "value": 1
+    },
+    {
+        "name": "高频头",
+        "value": 1
+    },
+    {
+        "name": "卫星电视",
+        "value": 1
+    },
+    {
+        "name": "接收机",
+        "value": 1
+    },
+    {
+        "name": "前述",
+        "value": 1
+    },
+    {
+        "name": "制冷",
+        "value": 2
+    },
+    {
+        "name": "空调设备",
+        "value": 2
+    },
+    {
+        "name": "气体",
+        "value": 2
+    },
+    {
+        "name": "压缩",
+        "value": 2
+    },
+    {
+        "name": "机械制造",
+        "value": 1
+    },
+    {
+        "name": "专用设备",
+        "value": 3
+    },
+    {
+        "name": "吸收",
+        "value": 3
+    },
+    {
+        "name": "公众",
+        "value": 3
+    },
+    {
+        "name": "主要",
+        "value": 2
+    },
+    {
+        "name": "个人",
+        "value": 5
+    },
+    {
+        "name": "及小微",
+        "value": 2
+    },
+    {
+        "name": "存款",
+        "value": 6
+    },
+    {
+        "name": "针对",
+        "value": 1
+    },
+    {
+        "name": "发放",
+        "value": 3
+    },
+    {
+        "name": "短期",
+        "value": 3
+    },
+    {
+        "name": "中期",
+        "value": 3
+    },
+    {
+        "name": "长期贷款",
+        "value": 3
+    },
+    {
+        "name": "办理",
+        "value": 9
+    },
+    {
+        "name": "国内外",
+        "value": 4
+    },
+    {
+        "name": "结算",
+        "value": 5
+    },
+    {
+        "name": "票据",
+        "value": 6
+    },
+    {
+        "name": "承兑",
+        "value": 6
+    },
+    {
+        "name": "贴现",
+        "value": 7
+    },
+    {
+        "name": "发行",
+        "value": 12
+    },
+    {
+        "name": "金融债券",
+        "value": 8
+    },
+    {
+        "name": "兑付",
+        "value": 4
+    },
+    {
+        "name": "承销",
+        "value": 4
+    },
+    {
+        "name": "政府",
+        "value": 10
+    },
+    {
+        "name": "债券",
+        "value": 8
+    },
+    {
+        "name": "买卖",
+        "value": 16
+    },
+    {
+        "name": "同业",
+        "value": 4
+    },
+    {
+        "name": "拆借",
+        "value": 4
+    },
+    {
+        "name": "外汇",
+        "value": 17
+    },
+    {
+        "name": "银行卡",
+        "value": 4
+    },
+    {
+        "name": "信用证",
+        "value": 4
+    },
+    {
+        "name": "担保",
+        "value": 6
+    },
+    {
+        "name": "收付",
+        "value": 3
+    },
+    {
+        "name": "款项",
+        "value": 3
+    },
+    {
+        "name": "保险业务",
+        "value": 2
+    },
+    {
+        "name": "保管箱",
+        "value": 4
+    },
+    {
+        "name": "基金",
+        "value": 6
+    },
+    {
+        "name": "银行业",
+        "value": 4
+    },
+    {
+        "name": "监督管理",
+        "value": 4
+    },
+    {
+        "name": "机构",
+        "value": 6
+    },
+    {
+        "name": "部门",
+        "value": 1
+    },
+    {
+        "name": "批准",
+        "value": 4
+    },
+    {
+        "name": "编带",
+        "value": 1
+    },
+    {
+        "name": "包装",
+        "value": 2
+    },
+    {
+        "name": "机器人",
+        "value": 1
+    },
+    {
+        "name": "视觉",
+        "value": 1
+    },
+    {
+        "name": "非标",
+        "value": 1
+    },
+    {
+        "name": "整线",
+        "value": 1
+    },
+    {
+        "name": "维修服务",
+        "value": 1
+    },
+    {
+        "name": "自产",
+        "value": 1
+    },
+    {
+        "name": "半导体器件",
+        "value": 1
+    },
+    {
+        "name": "射线",
+        "value": 1
+    },
+    {
+        "name": "移动",
+        "value": 2
+    },
+    {
+        "name": "终端设备",
+        "value": 2
+    },
+    {
+        "name": "配送",
+        "value": 1
+    },
+    {
+        "name": "运输",
+        "value": 1
+    },
+    {
+        "name": "药品",
+        "value": 1
+    },
+    {
+        "name": "触摸屏",
+        "value": 1
+    },
+    {
+        "name": "触控",
+        "value": 2
+    },
+    {
+        "name": "器件",
+        "value": 2
+    },
+    {
+        "name": "模组",
+        "value": 2
+    },
+    {
+        "name": "微型",
+        "value": 2
+    },
+    {
+        "name": "摄像",
+        "value": 1
+    },
+    {
+        "name": "光学",
+        "value": 1
+    },
+    {
+        "name": "关键部件",
+        "value": 1
+    },
+    {
+        "name": "摩托车",
+        "value": 4
+    },
+    {
+        "name": "电动汽车",
+        "value": 1
+    },
+    {
+        "name": "物理",
+        "value": 1
+    },
+    {
+        "name": "金属结构",
+        "value": 2
+    },
+    {
+        "name": "链条",
+        "value": 1
+    },
+    {
+        "name": "国内",
+        "value": 2
+    },
+    {
+        "name": "集装箱",
+        "value": 1
+    },
+    {
+        "name": "普通",
+        "value": 2
+    },
+    {
+        "name": "仓储",
+        "value": 3
+    },
+    {
+        "name": "装卸",
+        "value": 1
+    },
+    {
+        "name": "搬运",
+        "value": 1
+    },
+    {
+        "name": "国际",
+        "value": 3
+    },
+    {
+        "name": "汽车装饰",
+        "value": 1
+    },
+    {
+        "name": "用品",
+        "value": 2
+    },
+    {
+        "name": "日用百货",
+        "value": 1
+    },
+    {
+        "name": "服装服饰",
+        "value": 3
+    },
+    {
+        "name": "鞋帽",
+        "value": 1
+    },
+    {
+        "name": "卫生用品",
+        "value": 1
+    },
+    {
+        "name": "化妆品",
+        "value": 1
+    },
+    {
+        "name": "珠宝首饰",
+        "value": 1
+    },
+    {
+        "name": "文具用品",
+        "value": 3
+    },
+    {
+        "name": "针纺织品",
+        "value": 1
+    },
+    {
+        "name": "乐器",
+        "value": 1
+    },
+    {
+        "name": "助动",
+        "value": 1
+    },
+    {
+        "name": "自行车",
+        "value": 2
+    },
+    {
+        "name": "代步车",
+        "value": 1
+    },
+    {
+        "name": "体育用品",
+        "value": 1
+    },
+    {
+        "name": "家用",
+        "value": 1
+    },
+    {
+        "name": "照相机",
+        "value": 1
+    },
+    {
+        "name": "五金产品",
+        "value": 2
+    },
+    {
+        "name": "客车",
+        "value": 1
+    },
+    {
+        "name": "租赁经营",
+        "value": 1
+    },
+    {
+        "name": "商务",
+        "value": 1
+    },
+    {
+        "name": "代办",
+        "value": 2
+    },
+    {
+        "name": "休闲",
+        "value": 1
+    },
+    {
+        "name": "观光",
+        "value": 1
+    },
+    {
+        "name": "包装材料",
+        "value": 1
+    },
+    {
+        "name": "制品",
+        "value": 3
+    },
+    {
+        "name": "包装容器",
+        "value": 2
+    },
+    {
+        "name": "木制",
+        "value": 2
+    },
+    {
+        "name": "容器",
+        "value": 2
+    },
+    {
+        "name": "再生资源",
+        "value": 3
+    },
+    {
+        "name": "回收",
+        "value": 2
+    },
+    {
+        "name": "生产性",
+        "value": 1
+    },
+    {
+        "name": "废旧金属",
+        "value": 1
+    },
+    {
+        "name": "化学",
+        "value": 2
+    },
+    {
+        "name": "人力资源",
+        "value": 1
+    },
+    {
+        "name": "办公用品",
+        "value": 1
+    },
+    {
+        "name": "工艺美术品",
+        "value": 2
+    },
+    {
+        "name": "收藏品",
+        "value": 1
+    },
+    {
+        "name": "礼仪",
+        "value": 1
+    },
+    {
+        "name": "日用品",
+        "value": 2
+    },
+    {
+        "name": "报经",
+        "value": 1
+    },
+    {
+        "name": "合法",
+        "value": 1
+    },
+    {
+        "name": "人民币",
+        "value": 1
+    },
+    {
+        "name": "贷款",
+        "value": 9
+    },
+    {
+        "name": "汇兑",
+        "value": 2
+    },
+    {
+        "name": "清算",
+        "value": 3
+    },
+    {
+        "name": "销售业务",
+        "value": 1
+    },
+    {
+        "name": "代收",
+        "value": 2
+    },
+    {
+        "name": "代付",
+        "value": 1
+    },
+    {
+        "name": "证券",
+        "value": 4
+    },
+    {
+        "name": "保险",
+        "value": 2
+    },
+    {
+        "name": "兼业",
+        "value": 2
+    },
+    {
+        "name": "政策性",
+        "value": 2
+    },
+    {
+        "name": "银行",
+        "value": 5
+    },
+    {
+        "name": "外国",
+        "value": 2
+    },
+    {
+        "name": "金融机构",
+        "value": 2
+    },
+    {
+        "name": "托管",
+        "value": 5
+    },
+    {
+        "name": "受托",
+        "value": 1
+    },
+    {
+        "name": "账户",
+        "value": 1
+    },
+    {
+        "name": "开放式",
+        "value": 2
+    },
+    {
+        "name": "登记",
+        "value": 2
+    },
+    {
+        "name": "认购",
+        "value": 1
+    },
+    {
+        "name": "申购",
+        "value": 1
+    },
+    {
+        "name": "赎回",
+        "value": 1
+    },
+    {
+        "name": "资信",
+        "value": 2
+    },
+    {
+        "name": "见证",
+        "value": 2
+    },
+    {
+        "name": "承诺",
+        "value": 2
+    },
+    {
+        "name": "财务顾问",
+        "value": 2
+    },
+    {
+        "name": "参加",
+        "value": 2
+    },
+    {
+        "name": "银团",
+        "value": 2
+    },
+    {
+        "name": "外币",
+        "value": 4
+    },
+    {
+        "name": "兑换",
+        "value": 2
+    },
+    {
+        "name": "出口",
+        "value": 1
+    },
+    {
+        "name": "托收",
+        "value": 1
+    },
+    {
+        "name": "借款",
+        "value": 2
+    },
+    {
+        "name": "股票",
+        "value": 2
+    },
+    {
+        "name": "以外",
+        "value": 2
+    },
+    {
+        "name": "有价证券",
+        "value": 2
+    },
+    {
+        "name": "代客",
+        "value": 2
+    },
+    {
+        "name": "金融",
+        "value": 2
+    },
+    {
+        "name": "衍生",
+        "value": 2
+    },
+    {
+        "name": "电话",
+        "value": 2
+    },
+    {
+        "name": "网上银行",
+        "value": 2
+    },
+    {
+        "name": "手机",
+        "value": 2
+    },
+    {
+        "name": "银行业务",
+        "value": 1
+    },
+    {
+        "name": "结汇",
+        "value": 2
+    },
+    {
+        "name": "售汇",
+        "value": 2
+    },
+    {
+        "name": "国务院",
+        "value": 2
+    },
+    {
+        "name": "中国",
+        "value": 1
+    },
+    {
+        "name": "监管部门",
+        "value": 2
+    },
+    {
+        "name": "人防",
+        "value": 3
+    },
+    {
+        "name": "防护",
+        "value": 2
+    },
+    {
+        "name": "计算机信息",
+        "value": 1
+    },
+    {
+        "name": "系统安全",
+        "value": 1
+    },
+    {
+        "name": "汇款",
+        "value": 1
+    },
+    {
+        "name": "证券公司",
+        "value": 1
+    },
+    {
+        "name": "客户",
+        "value": 1
+    },
+    {
+        "name": "存管",
+        "value": 1
+    },
+    {
+        "name": "合格",
+        "value": 1
+    },
+    {
+        "name": "境外",
+        "value": 1
+    },
+    {
+        "name": "投资者",
+        "value": 1
+    },
+    {
+        "name": "境内",
+        "value": 1
+    },
+    {
+        "name": "标准化",
+        "value": 1
+    },
+    {
+        "name": "计量",
+        "value": 1
+    },
+    {
+        "name": "土地",
+        "value": 2
+    },
+    {
+        "name": "使用权",
+        "value": 1
+    },
+    {
+        "name": "锻件",
+        "value": 2
+    },
+    {
+        "name": "住宅",
+        "value": 1
+    },
+    {
+        "name": "室内装饰",
+        "value": 1
+    },
+    {
+        "name": "装修",
+        "value": 1
+    },
+    {
+        "name": "工程技术",
+        "value": 1
+    },
+    {
+        "name": "平面设计",
+        "value": 1
+    },
+    {
+        "name": "工程造价",
+        "value": 1
+    },
+    {
+        "name": "规划设计",
+        "value": 1
+    },
+    {
+        "name": "地质",
+        "value": 2
+    },
+    {
+        "name": "勘查",
+        "value": 2
+    },
+    {
+        "name": "旅游",
+        "value": 1
+    },
+    {
+        "name": "公路",
+        "value": 1
+    },
+    {
+        "name": "水运",
+        "value": 1
+    },
+    {
+        "name": "整治",
+        "value": 1
+    },
+    {
+        "name": "园区",
+        "value": 1
+    },
+    {
+        "name": "资产",
+        "value": 1
+    },
+    {
+        "name": "建筑工程",
+        "value": 1
+    },
+    {
+        "name": "出租",
+        "value": 1
+    },
+    {
+        "name": "交通设施",
+        "value": 1
+    },
+    {
+        "name": "隔热",
+        "value": 2
+    },
+    {
+        "name": "隔音材料",
+        "value": 2
+    },
+    {
+        "name": "园林绿化",
+        "value": 1
+    },
+    {
+        "name": "水泥制品",
+        "value": 2
+    },
+    {
+        "name": "花卉",
+        "value": 1
+    },
+    {
+        "name": "种植",
+        "value": 1
+    },
+    {
+        "name": "林业",
+        "value": 1
+    },
+    {
+        "name": "对外",
+        "value": 1
+    },
+    {
+        "name": "承包工程",
+        "value": 1
+    },
+    {
+        "name": "系列产品",
+        "value": 1
+    },
+    {
+        "name": "中国电信",
+        "value": 1
+    },
+    {
+        "name": "股份",
+        "value": 1
+    },
+    {
+        "name": "重庆",
+        "value": 1
+    },
+    {
+        "name": "分公司",
+        "value": 1
+    },
+    {
+        "name": "专利",
+        "value": 8
+    },
+    {
+        "name": "商标代理",
+        "value": 7
+    },
+    {
+        "name": "贸易",
+        "value": 2
+    },
+    {
+        "name": "商标",
+        "value": 1
+    },
+    {
+        "name": "著作权",
+        "value": 1
+    },
+    {
+        "name": "代理服务",
+        "value": 6
+    },
+    {
+        "name": "非诉讼",
+        "value": 1
+    },
+    {
+        "name": "法律事务",
+        "value": 1
+    },
+    {
+        "name": "法律文书",
+        "value": 1
+    },
+    {
+        "name": "工商登记",
+        "value": 1
+    },
+    {
+        "name": "布图",
+        "value": 2
+    },
+    {
+        "name": "无形资产",
+        "value": 2
+    },
+    {
+        "name": "标识",
+        "value": 1
+    },
+    {
+        "name": "标志牌",
+        "value": 1
+    }
+]

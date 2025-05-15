@@ -1,0 +1,84 @@
+.graph-wrapper {        /* 底部容器 */
+    position: relative;
+}
+#graph-container {      /* 主要的图容器 */
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    height: 800px;
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.tooltip-ellipsis {     /* 工具栏 单行文本换行省略 */
+    max-width: 300px;               /* 限制最大宽度 */
+    white-space: normal;            /* 允许换行 */
+    display: -webkit-box;           /* 必须设置，使用弹性盒子模型 */
+    -webkit-box-orient: vertical;   /* 垂直排列 */
+    -webkit-line-clamp: 3;          /* 限制显示3行 */
+    overflow: hidden;               /* 超出隐藏 */
+    text-overflow: ellipsis;        /* 多余文本改为省略号 */
+}
+.tooltip-key {      /* 工具栏 属性名 */
+    font-weight: bold;
+    color: #fff;  /* 根据背景你可以选择较纯净的白色 */
+    margin-right: 4px;
+}
+.tooltip-value {    /* 工具栏 属性值 */
+    font-weight: normal;
+    color: #ddd;
+}
+.tooltip-header {       /* 工具栏 标题 */
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 4px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+}
+.tooltip-sub {          /* 工具栏 类别 */
+    margin-bottom: 4px;
+    font-size: 0.95rem;
+    color: #f0f0f0;
+}
+.search {       /* 搜索栏 主容器 */
+    background: rgba(255,255,255,0.95);
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 10px;
+    top: 0;
+    position: sticky;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    z-index: 100;
+    gap: 10px;
+}
+.search select, .search input {     /* 搜索栏 选中&输入 */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 8px 12px;
+}
+.search button {        /* 搜索栏 搜索按钮 */
+    background-color: #1890ff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 8px 16px;
+}
+@media (max-width: 768px) {     /* 响应式设计 */
+    .search {
+        flex-direction: column;
+        position: sticky;
+        gap: 5px;
+        top: 0;
+        z-index: 10;
+    }
+    #graph-container {
+        height: 600px;
+    }
+    button {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
