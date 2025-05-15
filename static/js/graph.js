@@ -1,29 +1,62 @@
 import { fetchData } from './fetchData.js';
 import { showToast } from './UIHelper.js';
 
+function getQueryParam(paramName) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(paramName);
+}
+
 document.addEventListener('DOMContentLoaded', async function() {
 
-    const chartDOM = document.getElementById('graph-container');
-    const chart = echarts.init(chartDOM);
-    let showLabels = false;
+        const chartDOM = document.getElementById('graph-container');
+        const chart = echarts.init(chartDOM);
+        let showLabels = false;
 
-    // Preloading Module
-    chart.showLoading();
-    let graphData = sessionStorage.getItem('graphData');
+        chart.showLoading();
 
-    if (graphData) {
-        console.log("Using preload data!");
-        graphData = JSON.parse(graphData);
-        setTimeout(() => {
-            updateChart(graphData);
-            chart.hideLoading();
-        }, 500);    // delay for experience
-    } else {
-        console.log("Could not get preload data, requesting server...");
-        const initData = await fetchData('/graph/api/');
-        if (initData) await updateChart(initData);
-        chart.hideLoading();
-    }
+        // Keyword Jump Search Module
+        const keyword = getQueryParam('keyword');
+        if (keyword) {
+            // set specified infos
+            const searchInput = document.getElementById('search-input');
+            if (searchInput) searchInput.value = keyword;
+            const levelSelect = document.getElementById('level-select');
+            if (levelSelect) levelSelect.value = '1';
+            const directionSelect = document.getElementById('direction-select');
+            if (directionSelect) directionSelect.value = 'both';
+
+            // construct search url
+            const level = '1';
+            const direction = 'both';
+            const searchUrl = `/search/?keyword=${encodeURIComponent(keyword)}&level=${level}&direction=${direction}`;
+
+            // search data generate
+            const searchData = await fetchData(searchUrl);
+            if (searchData.error) {
+                showToast(searchData.error);
+                const initData = await fetchData('/graph/api/');
+                if (initData) updateChart(initData);
+            } else {
+                updateChart(searchData);
+            }
+        }
+
+        // Preloading Module
+        else {
+            let graphData = sessionStorage.getItem('graphData');
+
+            if (graphData) {
+                console.log("Using preload data!");
+                graphData = JSON.parse(graphData);
+                setTimeout(() => {
+                    updateChart(graphData);
+                }, 500);    // delay for experience
+            } else {
+                console.log("Could not get preload data, requesting server...");
+                const initData = await fetchData('/graph/api/');
+                if (initData) await updateChart(initData);
+            }
+        }
 
 
     function updateChart(data) {
@@ -95,15 +128,6 @@ document.addEventListener('DOMContentLoaded', async function() {
         });
         chart.hideLoading()
     }
-
-
-    // Reload initial data for backup
-    await (async () => {
-        chart.showLoading()
-        const initData = await fetchData('/graph/api/');
-        if (initData) await updateChart(initData);
-        chart.hideLoading()
-    })();
 
     // Label display button event handler
     const toggleLabelButton = document.getElementById('toggle-label');

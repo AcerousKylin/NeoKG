@@ -1,12 +1,12 @@
 import { fetchData } from './fetchData.js'
 
 function paintByValue(data) {
-        console.log(data.value)
         const value = data.value;
-        if (value > 40) return '#003366';
-        else if (value > 30) return '#00509e';
-        else if (value > 20) return '#007acc';
-        else if (value > 10) return '#3399ff';
+        if (value > 40) return '#002244';
+        else if (value > 30) return '#003366';
+        else if (value > 20) return '#00509e';
+        else if (value > 10) return '#007acc';
+        else if (value > 5)  return '#3399ff'
         return '#66b2ff'
     }
 
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     const chartDOM = document.getElementById('wordcloud-container');
     const chart = echarts.init(chartDOM);
 
-    chart.showLoading({ text: 'Loading...', color: 'var(--color-accent)' })
+    chart.showLoading()
 
     const wordCloudData = await fetchData('/wordcloud/api/');
 
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         animationEasing: 'cubicInOut',
         series: [{
             type: 'wordCloud',
-            shape: 'circle',
+            shape: 'diamond',
             sizeRange: [18, 70],
             rotationRange: [-45, 45],
             gridSize: 10,
@@ -39,7 +39,6 @@ document.addEventListener('DOMContentLoaded', async function() {
                 fontFamily: 'Helvetica, Arial, sans-serif',
                 fontWeight: 'bold',
                 color: function(data) {
-                    console.log('color callback called, params:', data);
                     return paintByValue(data);
                 },
                 shadowBlur: 10,
@@ -53,9 +52,10 @@ document.addEventListener('DOMContentLoaded', async function() {
         }]
     };
 
-    chart.setOption(option);
+    await chart.setOption(option);
     chart.hideLoading();
 
+    // click on word into graph searching
     chart.on('click', function (params) {
         // 根据需求，这里可以使用模态框或者直接跳转
         window.location.href = `/graph/?keyword=${encodeURIComponent(params.name)}`;
