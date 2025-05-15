@@ -12,14 +12,14 @@ document.addEventListener('DOMContentLoaded', async function() {
     let graphData = sessionStorage.getItem('graphData');
 
     if (graphData) {
-        console.log("使用预加载数据！");
+        console.log("Using preload data!");
         graphData = JSON.parse(graphData);
         setTimeout(() => {
             updateChart(graphData);
-            chart.hideLoading(); // 让加载动画稍微停留一下
-        }, 500); // 延迟 500ms，增强用户体验
+            chart.hideLoading();
+        }, 500);    // delay for experience
     } else {
-        console.log("未找到预加载数据，重新请求服务器...");
+        console.log("Could not get preload data, requesting server...");
         const initData = await fetchData('/graph/api/');
         if (initData) await updateChart(initData);
         chart.hideLoading();
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
 
 
-    // Loading initial data
+    // Reload initial data for backup
     await (async () => {
         chart.showLoading()
         const initData = await fetchData('/graph/api/');
@@ -109,17 +109,19 @@ document.addEventListener('DOMContentLoaded', async function() {
     const toggleLabelButton = document.getElementById('toggle-label');
     toggleLabelButton.addEventListener('click', () => {
         showLabels = !showLabels;
-        // 更新按钮文本提示
+        // update button text
         toggleLabelButton.textContent = showLabels ? '隐藏节点名' : '显示节点名';
-        // 更新图表：采用 chart.setOption 局部更新，直接修改 series label.show
+        // update chart
         chart.setOption({ series: [{ label: { show: showLabels } }] });
     });
 
     // Window size event handler
     window.addEventListener('resize', () => chart.resize());
 
-    // 防止鼠标滚轮事件冒泡至页面：同时监听图表容器和 zrender 的 mousewheel 事件
+    // Mousewheel event handler
     chartDOM.addEventListener('wheel', e => e.preventDefault(), { passive: false });
+
+    // Prevent the mistaken scroll by listening Zrender's mousewheel event
     chart.getZr().on('mousewheel', e => e.event.preventDefault());
 
 

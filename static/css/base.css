@@ -1,5 +1,5 @@
 /* ======================================
-   全局重置与基础设置
+   Overall and Basic Settings
 ====================================== */
 * {
   margin: 0;
@@ -15,7 +15,22 @@ body {
   overflow-x: hidden;
 }
 
-/* 利用 data URI 制作轻微的 SVG 网格纹理背景 */
+/* ======================================
+  CSS variables
+====================================== */
+:root {
+  --bg-main: #f7f7f7;
+  --color-text: #333;
+  --color-accent: #007ACC;
+  --color-accent-hover: #005F99;
+  --bg-card: #ffffff;
+  --shadow-light: rgba(0,0,0,0.05);
+  --toast-bg: rgba(0,122,204,0.85);
+}
+
+/* ======================================
+  Background Decoration
+====================================== */
 body::before {
   content: "";
   position: fixed;
@@ -28,9 +43,6 @@ body::before {
   background-repeat: repeat;
 }
 
-/* ======================================
-   背景装饰元素（填充空白区域）
-====================================== */
 .decorative-bg {
   position: fixed;
   bottom: -50px;
@@ -60,7 +72,7 @@ body::before {
 }
 
 /* ======================================
-   容器与全局布局
+   Containers and Layouts
 ====================================== */
 .container {
   width: 90%;
@@ -68,23 +80,22 @@ body::before {
   margin: 0 auto;
 }
 
-/* ======================================
-   页头、导航、主体和页脚
-====================================== */
+/* Header */
 header {
   background: #fff;
   border-bottom: 2px solid #ccc;
   padding: 20px 0;
   text-align: center;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 8px var(--shadow-light);
 }
 
 header h1 {
   font-size: 2.5em;
   color: #444;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.05);
+  text-shadow: 1px 1px 3px var(--shadow-light);
 }
 
+/* Navigator */
 nav {
   background: #fff;
   padding: 10px 0;
@@ -111,27 +122,28 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #007ACC;  /* 科技蓝作为点缀色 */
-  border-bottom: 2px solid #007ACC;
+  color: var(--color-accent);  /* 科技蓝作为点缀色 */
+  border-bottom: 2px solid var(--color-accent);
 }
 
+/* Main Content */
 .main-content {
   background: #fff;
   padding: 40px 20px;
   margin: 20px auto;
   border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 10px var(--shadow-light);
 }
 
 /* ======================================
-   辅助版块和卡片
+   Cards and Sections
 ====================================== */
 .section {
   padding: 40px 20px;
   background: #fff;
   margin: 20px 0;
   border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 10px var(--shadow-light);
 }
 
 .featured {
@@ -142,7 +154,7 @@ nav ul li a:hover {
 }
 
 .card {
-  background: #fefefe;
+  background: var(--bg-card);
   border: 1px solid #ddd;
   padding: 20px;
   border-radius: 4px;
@@ -155,7 +167,7 @@ nav ul li a:hover {
 }
 
 /* ======================================
-   页脚
+   Foot
 ====================================== */
 footer {
   background: #fff;
@@ -171,11 +183,11 @@ footer p {
 }
 
 /* ======================================
-   按钮基础样式
+   Button
 ====================================== */
 .btn {
   display: inline-block;
-  background-color: #007ACC;
+  background-color: var(--color-accent);
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -185,5 +197,21 @@ footer p {
 }
 
 .btn:hover {
-  background-color: #005F99;
+  background-color: var(--color-accent-hover);
+}
+
+/* ======================================
+  Responsive Design
+====================================== */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2em;
+  }
+  nav ul li {
+    font-size: 1em;
+    margin: 0 10px;
+  }
+  .main-content {
+    padding: 30px 10px;
+  }
 }

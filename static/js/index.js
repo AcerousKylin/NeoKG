@@ -3,18 +3,18 @@ async function preloadGraphData() {
         const response = await fetch('/graph/api/', { headers: { 'X-Requested-With': 'XMLHttpRequest' } });
 
         if (!response.ok) {
-            console.error("预加载失败，状态码:", response.status);
+            console.error("Preload failed - Status:", response.status);
             return;
         }
 
         const data = await response.json();
         sessionStorage.setItem('graphData', JSON.stringify(data)); // 存储数据
-        console.log("图数据预加载完成！");
+        console.log("Graph data preloaded!");
     } catch (error) {
-        console.error("预加载图数据失败:", error);
+        console.error("Preloading graph data failed:", error);
     }
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
-    await preloadGraphData(); // 确保数据加载完成后再继续执行
+    await preloadGraphData();
 });

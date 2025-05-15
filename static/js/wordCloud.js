@@ -3,18 +3,18 @@ import { fetchData } from './fetchData.js'
 function paintByValue(data) {
         console.log(data.value)
         const value = data.value;
-        if (value > 40) return '#C71585';
-        else if (value > 30) return '#FF69B4';
-        else if (value > 20) return '#FF98A2';
-        else if (value > 10) return '#FFC6C1';
-        return '#FFC0CB'
+        if (value > 40) return '#003366';
+        else if (value > 30) return '#00509e';
+        else if (value > 20) return '#007acc';
+        else if (value > 10) return '#3399ff';
+        return '#66b2ff'
     }
 
 document.addEventListener('DOMContentLoaded', async function() {
     const chartDOM = document.getElementById('wordcloud-container');
     const chart = echarts.init(chartDOM);
 
-    chart.showLoading({ text: 'Loading...', color: '#007ACC' })
+    chart.showLoading({ text: 'Loading...', color: 'var(--color-accent)' })
 
     const wordCloudData = await fetchData('/wordcloud/api/');
 
