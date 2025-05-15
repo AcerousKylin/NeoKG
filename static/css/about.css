@@ -1,15 +1,24 @@
 .about-container {
   padding: 40px 20px;
   text-align: center;
+  background: var(--bg-card);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px var(--shadow-light);
+  margin-bottom: 20px;
 }
 .about-header {
   color: var(--color-accent);
   margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 2rem;
 }
 .about-content {
   font-size: 1.1rem;
   line-height: 1.8;
   color: #444;
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
 }
 .contact-link {
   color: var(--color-accent);

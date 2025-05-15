@@ -7,38 +7,48 @@
 {% endblock %}
 
 {% block content %}
-<div class="graph-wrapper">
-    <!-- Title Container -->
-    <h1 class="mb-4">Knowledge Graph Force-Directed Layout</h1>
+    <div class="graph-wrapper">
+        <!-- Knowledge Graph Title -->
+        <h1 class="mb-4 text-center">Knowledge Graph Force-Directed Layout</h1>
 
-    <!-- Search Container -->
-    <div class="search">
-        <select id="level-select">
-            <option value="1">一级</option>
-            <option value="2">二级</option>
-            <option value="3">三级</option>
-        </select>
-        <select id="direction-select">
-            <option value="out">出向</option>
-            <option value="in">入向</option>
-            <option value="both">双向</option>
-        </select>
-        <input type="text" id="search-input" placeholder="输入搜索关键词">
+        <!-- Search Container -->
+        <div class="container mb-3">
+            <form class="row gy-2 gx-3 align-items-center">
+                <div class="col-auto">
+                    <select id="level-select" class="form-select form-select-sm">
+                        <option value="1">一级</option>
+                        <option value="2">二级</option>
+                        <option value="3">三级</option>
+                    </select>
+                </div>
+                <div class="col-auto">
+                    <select id="direction-select" class="form-select form-select-sm">
+                        <option value="out">出向</option>
+                        <option value="in">入向</option>
+                        <option value="both">双向</option>
+                    </select>
+                </div>
+                <div class="col-auto">
+                    <input type="text" id="search-input" class="form-control form-control-sm"
+                           placeholder="输入搜索关键词">
+                </div>
+                <div class="col-auto">
+                    <button id="search-button" type="button" class="btn btn-primary btn-sm">搜索</button>
+                </div>
+                <div class="col-auto">
+                    <button id="toggle-label" type="button" class="btn btn-secondary btn-sm">显示节点名</button>
+                </div>
+            </form>
+        </div>
 
-        <!-- Bootstrap Style Class Buttons -->
-        <button id="search-button" class="btn btn-primary">搜索</button>
-        <button id="toggle-label" class="btn btn-secondary">显示节点名</button>
+        <!-- Graph Container -->
+        <div id="graph-container"></div>
     </div>
-
-    <!-- Graph Container -->
-    <div id="graph-container"></div>
-
-</div>
 {% endblock %}
 
 {% block extra_js %}
-    <!-- ES6 modulize to import other sub module -->
+    <!-- ES6 Modulization for inner import -->
     <script type="module" src="{% static 'js/graph.js' %}"></script>
-    <!-- ECharts Module -->
+
     <script src="{% static 'js/echarts.min.js' %}"></script>
 {% endblock %}

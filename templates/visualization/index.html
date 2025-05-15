@@ -3,30 +3,47 @@
 {% load static %}
 
 {% block content %}
-  <!-- Entry Main Section -->
-<div class="section">
-  <h2 style="color: var(--color-accent);">Welcome 2 NeoKG</h2>
-  <p>NeoKG, an exhibition of outlook Tech Service KG & Keyword Cloud.</p>
-  <div class="featured">
-    <div class="card">
-      <h3>Knowledge Graph</h3>
-      <p>Straight out to all technology service network within companies.</p>
-      <a class="btn" href="{% url 'graph' %}">Explore the Knowledge Graph</a>
+<div class="text-center">
+  <h2 class="mb-4 text-primary">Welcome to NeoKG</h2>
+  <p>NeoKG showcases a complete technology service knowledge graph and dynamic keyword cloud visualization.</p>
+  <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+    <div class="col">
+      <div class="card h-100">
+         <div class="card-body">
+           <h5 class="card-title">Knowledge Graph</h5>
+           <p class="card-text">Visualize technology service networks at a glance.</p>
+         </div>
+         <div class="card-footer bg-transparent border-0">
+            <a href="{% url 'graph' %}" class="btn btn-primary">Explore the Graph</a>
+         </div>
+      </div>
     </div>
-    <div class="card">
-      <h3>Keyword Cloud</h3>
-      <p>Spot contemporary popular technology keywords.</p>
-      <a class="btn" href="{% url 'wordcloud' %}">Check out Keyword Cloud</a>
+    <div class="col">
+      <div class="card h-100">
+         <div class="card-body">
+           <h5 class="card-title">Keyword Cloud</h5>
+           <p class="card-text">Discover hot technology keywords and trends.</p>
+         </div>
+         <div class="card-footer bg-transparent border-0">
+            <a href="{% url 'wordcloud' %}" class="btn btn-primary">View Keyword Cloud</a>
+         </div>
+      </div>
     </div>
-    <div class="card">
-      <h3>About</h3>
-      <p>Learn about the NeoKG project, me as the programmer and my works.</p>
-      <a class="btn" href="{% url 'about' %}">Learn more</a>
+    <div class="col">
+      <div class="card h-100">
+         <div class="card-body">
+           <h5 class="card-title">About</h5>
+           <p class="card-text">Learn about the NeoKG project, our team, and our work.</p>
+         </div>
+         <div class="card-footer bg-transparent border-0">
+            <a href="{% url 'about' %}" class="btn btn-primary">Learn More</a>
+         </div>
+      </div>
     </div>
   </div>
 </div>
 {% endblock %}
 
 {% block extra_js %}
-    <script src="{% static 'js/index.js' %}"></script>
+<script src="{% static 'js/index.js' %}"></script>
 {% endblock %}

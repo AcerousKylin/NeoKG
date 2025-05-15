@@ -7,8 +7,10 @@
 {% endblock %}
 
 {% block content %}
-<div class="section wordcloud-wrapper">
-    <h1 class="mb-4" style="color: var(--color-accent);">Technology Service Keyword Cloud</h1>
+<div class="wordcloud-wrapper, text-center">
+    <!-- Title -->
+    <h1 class="mb-4 text-center">Technology Service Keyword Cloud</h1>
+
     <div id="wordcloud-container" class="wordcloud-container"></div>
 </div>
 {% endblock %}
@@ -16,5 +18,7 @@
 {% block extra_js %}
     <script src="{% static 'js/echarts.min.js' %}"></script>
     <script src="{% static 'js/echarts-wordcloud.min.js' %}"></script>
+
+    <!-- ES6 Modulization for inner import -->
     <script type="module" src="{% static 'js/wordCloud.js' %}"></script>
 {% endblock %}
