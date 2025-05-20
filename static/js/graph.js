@@ -1,5 +1,5 @@
-import { fetchData } from './fetchData.js';
-import { showToast } from './UIHelper.js';
+import {fetchData} from './fetchData.js';
+import {showToast} from './UIHelper.js';
 
 function getQueryParam(paramName) {
     const urlParams = new URLSearchParams(window.location.search);
@@ -11,6 +11,9 @@ document.addEventListener('DOMContentLoaded', async function() {
         const chartDOM = document.getElementById('graph-container');
         const chart = echarts.init(chartDOM);
         let showLabels = false;
+
+        const getLegendTextColor = () => getComputedStyle(document.body)
+            .getPropertyValue('--color-text').trim()
 
         chart.showLoading();
 
@@ -70,7 +73,7 @@ document.addEventListener('DOMContentLoaded', async function() {
                 orient: 'vertical',
                 right: 20,
                 top: 20,
-                textStyle: { color: '#333', fontSize: 14 },
+                textStyle: { color: getLegendTextColor, fontSize: 14 },
                 data: data.categories.map(c => c.name),
                 hoverLink: true,
                 selectedMode: 'multiple'
@@ -128,6 +131,13 @@ document.addEventListener('DOMContentLoaded', async function() {
         });
         chart.hideLoading()
     }
+
+    // Theme change event handler
+    document.addEventListener('themeChanged', () => {
+        chart.setOption({
+          legend: { textStyle: { color: getLegendTextColor } }
+        });
+    })
 
     // Label display button event handler
     const toggleLabelButton = document.getElementById('toggle-label');

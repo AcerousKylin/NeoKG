@@ -67,6 +67,7 @@
                   themeToggleBtn.textContent = '夜间模式';
                   localStorage.setItem('theme', 'light');
                 }
+                document.dispatchEvent(new Event('themeChanged'));
           });
         });
     </script>
