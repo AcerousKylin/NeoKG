@@ -3,24 +3,28 @@
 {% load static %}
 
 {% block extra_css %}
-  <link rel="stylesheet" href="{% static 'css/about.css' %}">
+	<link rel="stylesheet" href="{% static 'css/about.css' %}">
 {% endblock %}
 
 {% block content %}
-  <div class="about-container">
-    <h1 class="about-header">About NeoKG</h1>
-    <div class="about-content">
-      <p>
-        NeoKG is a Neo4j-based KG visualization demonstration for boosting tech innovation.
-      </p>
-      <p>
-        Through backend of Django, offering RESTful API and Neo4j Graph DB interaction with Neomodel.
-        With frontend ECharts for dynamic graph visualization.
-      </p>
-      <p>
-        Developed by <strong>AcerousKylin</strong> at <strong>Tianjin Renai College</strong>, I believe in transforming data into art.
-        For inquiries or collaborations, please <a class="contact-link" href="https://github.com/AcerousKylin" target="_blank">contact me</a>.
-      </p>
-    </div>
-  </div>
+	<div class="about-container">
+		<h1 class="about-header">关于NeoKG</h1>
+		<div class="about-content">
+			<p>
+				NeoKG平台是基于Neo4j图数据库的科技服务领域知识图谱可视化呈现，旨在为科技服务注入创新动力。
+			</p>
+			<p>
+				本项目主要使用Django REST Framework作为应用框架，力求最小框架复杂度。
+				模型层使用neomodel的OGM模型，并配备自定义序列化器，强化图数据存取并保留Django模型层概念；
+				视图层使用页面与API分离的编写方法，为每个序列化器配备视图集，解耦视图处理并增强数据存取健壮性；
+				模板层使用ECharts及其wordcloud的JS插件与Bootstrap样式表，借助ES6特性与现代化UI组件，构建了简洁的前端页面。
+			</p>
+			<p>
+				NeoKG项目由<strong>AcerousKylin</strong>开发，现<strong>天津仁爱学院</strong>在读学生。
+				若有意咨询合作或其他业务，可以先行访问<a class="contact-link" href="https://github.com/AcerousKylin"
+														   target="_blank">我的Github页面</a>
+				以了解更多我的其他项目。
+			</p>
+		</div>
+	</div>
 {% endblock %}

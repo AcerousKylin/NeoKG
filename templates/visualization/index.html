@@ -3,47 +3,89 @@
 {% load static %}
 
 {% block content %}
-<div class="text-center">
-  <h2 class="mb-4 text-primary">Welcome to NeoKG</h2>
-  <p>NeoKG showcases a complete technology service knowledge graph and dynamic keyword cloud visualization.</p>
-  <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
-    <div class="col">
-      <div class="card h-100">
-         <div class="card-body">
-           <h5 class="card-title">Knowledge Graph</h5>
-           <p class="card-text">Visualize technology service networks at a glance.</p>
-         </div>
-         <div class="card-footer bg-transparent border-0">
-            <a href="{% url 'graph' %}" class="btn btn-primary">Explore the Graph</a>
-         </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-         <div class="card-body">
-           <h5 class="card-title">Keyword Cloud</h5>
-           <p class="card-text">Discover hot technology keywords and trends.</p>
-         </div>
-         <div class="card-footer bg-transparent border-0">
-            <a href="{% url 'wordcloud' %}" class="btn btn-primary">View Keyword Cloud</a>
-         </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-         <div class="card-body">
-           <h5 class="card-title">About</h5>
-           <p class="card-text">Learn about the NeoKG project, our team, and our work.</p>
-         </div>
-         <div class="card-footer bg-transparent border-0">
-            <a href="{% url 'about' %}" class="btn btn-primary">Learn More</a>
-         </div>
-      </div>
-    </div>
-  </div>
-</div>
+	<div class="container">
+		<div class="text-center">
+			<!-- Top Header -->
+			<h2 class="mb-4 text-primary">欢迎来到NeoKG——面向科技服务领域的知识图谱</h2>
+
+			<!-- Top Description -->
+			<p>
+				NeoKG是面向科技服务行业各类信息需求搭建的知识图谱可视化平台。
+				通过灵活的搜索功能和直观的力导向分布为用户展示各类科技服务领域实体及其间的关系。
+				同时还配备科技服务实体词云，展现最新相关关键词词频。
+				知识图谱与词云共同助力科技服务领域信息化发展！
+			</p>
+		</div>
+
+		<!-- Interlaced Cards -->
+		<div class="card mb-4">
+			<div class="row g-0 align-items-center">
+				<div class="col-md-4">
+					<img src="{% static 'images/knowledge_graph.png' %}"
+						 class="img-fluid rounded-start"
+						 alt="Knowledge Graph">
+				</div>
+				<div class="col-md-8">
+					<div class="card-body d-flex flex-column h-100">
+						<h5 class="card-title">知识图谱</h5>
+						<p class="card-text">
+							聚焦近年科技服务领域的专利、机构、政策与服务，构建科技服务信息网络可视化知识图谱。
+							数据均来自天眼查与各国家官方网站，并经过精细处理。
+						</p>
+						<div class="mt-auto">
+							<a href="{% url 'graph' %}" class="btn btn-primary">探索知识图谱</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="card mb-4">
+			<div class="row g-0 align-items-center">
+				<div class="col-md-8 order-md-0">
+					<div class="card-body d-flex flex-column h-100">
+						<h5 class="card-title">关键词云</h5>
+						<p class="card-text">
+							提取最新科技服务业务关键词，展现科技服务热词与近期业务趋势。
+							随时点击关键词云的关键词，直接跳转知识图谱搜索感兴趣的关键词网络。
+						</p>
+						<div class="mt-auto">
+							<a href="{% url 'wordcloud' %}" class="btn btn-primary">遨游关键词云</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 order-md-1">
+					<img src="{% static 'images/word_cloud.png' %}"
+						 class="img-fluid rounded-end"
+						 alt="Keyword Cloud">
+				</div>
+			</div>
+		</div>
+
+		<div class="card mb-4">
+			<div class="row g-0 align-items-center">
+				<div class="col-md-4">
+					<img src="{% static 'images/about.jpg' %}"
+						 class="img-fluid rounded-start"
+						 alt="About">
+				</div>
+				<div class="col-md-8">
+					<div class="card-body d-flex flex-column h-100">
+						<h5 class="card-title">关于</h5>
+						<p class="card-text">
+							了解NeoKG平台的技术信息和项目详情。
+							认识NeoKG平台的开发者及其相关工作。
+						</p>
+						<div class="mt-auto">
+							<a href="{% url 'about' %}" class="btn btn-primary">了解更多</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 {% endblock %}
 
 {% block extra_js %}
-<script src="{% static 'js/index.js' %}"></script>
+	<script src="{% static 'js/index.js' %}"></script>
 {% endblock %}
