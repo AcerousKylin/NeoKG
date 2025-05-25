@@ -9,23 +9,8 @@ class NEIC(StructuredNode):
     neic_title = StringProperty(db_property="名称")
     neic_desc = StringProperty(db_property="说明")
 
-    @property
-    def properties(self) -> dict:
-        return {
-            'neic_code': self.neic_code,
-            'neic_title': self.neic_title,
-            'neic_desc': self.neic_desc
-        }
-
     subdivide_into = RelationshipTo("NEIC", "SUBDIVIDE_INTO")
     categorized_as = RelationshipTo("NEIC", "CATEGORIZED_AS")
-
-    @property
-    def relationships(self) -> dict:
-        return {
-            'subdivide_into': self.subdivide_into,
-            'categorized_as': self.categorized_as,
-        }
 
 class IPC(StructuredNode):
     ipc_code = StringProperty(unique_index=True ,db_property="IPC分类号")
